@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d732d250.css",
+    "main.js": "/static/js/main.b073b515.js",
+    "static/media/Geist-Black.woff2": "/static/media/Geist-Black.463a5a5dcb0784eb9327.woff2",
+    "static/media/Geist-UltraBlack.woff2": "/static/media/Geist-UltraBlack.f245ef78486ec497d35d.woff2",
+    "static/media/Geist-Bold.woff2": "/static/media/Geist-Bold.f05ae9735ee0220d9047.woff2",
+    "static/media/Geist-Medium.woff2": "/static/media/Geist-Medium.a30e010abbdf695b47e0.woff2",
+    "static/media/Geist-SemiBold.woff2": "/static/media/Geist-SemiBold.c7531cc0fd2bba703c8c.woff2",
+    "static/media/Geist-Regular.woff2": "/static/media/Geist-Regular.b0af001684e455e74531.woff2",
+    "static/media/Geist-UltraLight.woff2": "/static/media/Geist-UltraLight.c128fcaa2c4cc8715e2b.woff2",
+    "static/media/Geist-Light.woff2": "/static/media/Geist-Light.bd3f2e449e1ea178c43e.woff2",
+    "static/media/Geist-Thin.woff2": "/static/media/Geist-Thin.9502065620edc1ae9143.woff2",
+    "index.html": "/index.html",
+    "main.d732d250.css.map": "/static/css/main.d732d250.css.map",
+    "main.b073b515.js.map": "/static/js/main.b073b515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d732d250.css",
+    "static/js/main.b073b515.js"
+  ]
+}
