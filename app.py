@@ -1,7 +1,7 @@
 import torch
 import cv2
 import numpy as np
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_from_directory, send_file, Response
 from flask_cors import CORS
 import base64
 from io import BytesIO
@@ -125,6 +125,11 @@ def serve_index():
 @app.route('/<path:path>')
 def serve_static(path):
     return send_from_directory(app.static_folder, path)
+
+# Serve the PDF file at /report endpoint
+@app.route('/report', methods=['GET'])
+def serve_report():
+    return send_file('files/projectReportDocument.pdf', mimetype='application/pdf')
 
 # Run the server
 if __name__ == '__main__':
