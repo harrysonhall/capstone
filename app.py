@@ -14,7 +14,7 @@ from pathlib import Path
 model = torch.hub.load('ultralytics/yolov5', 'yolov5l')
 
 app = Flask(__name__, static_folder='src')
-CORS(app, origins=["https://www.harrison-capstone-project.com", "https://harrison-capstone-project.com"])
+CORS(app)
 
 # Function to detect objects in an image
 def detect_objects(image):
